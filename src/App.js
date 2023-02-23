@@ -1,8 +1,10 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 function App() {
     return (
       <div className="App">
-        <p>NETFLIX CLONE</p>
+       <Navbar/>
+        
         </div>)
 }
 export default App;
